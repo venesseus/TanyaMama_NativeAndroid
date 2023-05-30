@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "680270950558",
+    "project_id": "tanyamama-native",
+    "storage_bucket": "tanyamama-native.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680270950558:android:08b263dbf800494bb5cb8f",
+        "android_client_info": {
+          "package_name": "com.example.tanyamama_native"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680270950558-1n2ef837059hn5khn3fdddd6p14s5u17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0lb4M6rV6HCbc9_TRPCxBzv6sennut00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680270950558-1n2ef837059hn5khn3fdddd6p14s5u17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

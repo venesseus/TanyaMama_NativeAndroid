@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TanyaMama_Native</string>
+
+    <!--New String-->
+    <string name="user_profile">Gambar User</string>
+    <string name="say_something">Say Something</string>
+    <string name="logout">Logout</string>
+
+    <!--Login Activity-->
+    <string name="login_title">Ayo, Masuk Ke Akunmu </string>
+    <string name="login_description">Gunakan Akun Googlemu untuk login dan akses apps kami dengan mudah.</string>
+    <string name="no_account">Belum punya akun ? Daftar Sekarang</string>
+</resources>
