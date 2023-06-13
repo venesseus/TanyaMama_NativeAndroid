@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -39,9 +41,61 @@ android {
 
 dependencies {
 
+    //GoogleAuth
     implementation 'com.google.android.gms:play-services-auth:20.5.0'
 
+    //Firebase
     implementation 'com.google.firebase:firebase-auth-ktx:22.0.0'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.0'
+
+    //CircleImageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //RefreshLayout
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    //Livedata
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-service:2.6.1"
+
+    //PrettyTIme
+    implementation 'org.ocpsoft.prettytime:prettytime:4.0.4.Final'
+
+    //UI
+    implementation "androidx.activity:activity-ktx:1.7.1"
+    implementation "androidx.fragment:fragment-ktx:1.5.7"
+
+    //Datastore
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+
+    //Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+
+    //Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+
+    //Room
+    implementation "androidx.room:room-runtime:2.5.1"
+    kapt "androidx.room:room-compiler:2.5.1"
+    implementation "androidx.room:room-ktx:2.5.1"
+    implementation "androidx.room:room-paging:2.5.1"
+
+    //Dagger
+    implementation "com.google.dagger:hilt-android:2.41"
+    kapt "com.google.dagger:hilt-compiler:2.41"
+
+    //Paging
+    implementation "androidx.room:room-paging:2.5.1"
+    implementation "androidx.paging:paging-runtime-ktx:3.1.1"
+    implementation "androidx.paging:paging-runtime-ktx:3.1.1"
 
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'

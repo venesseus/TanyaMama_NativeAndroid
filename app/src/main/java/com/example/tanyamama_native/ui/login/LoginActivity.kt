@@ -37,6 +37,8 @@ class LoginActivity : AppCompatActivity() {
             .requestEmail()
             .build()
 
+        googleSignInClient = GoogleSignIn.getClient(this, gso)
+
         auth = Firebase.auth
 
         binding.btnSignIn.setOnClickListener {
